@@ -1,7 +1,3 @@
-Here’s a polished and professional version of your GitHub README, formatted for clarity and presentation:
-
----
-
 # Stick Hero Clone 
 
 ### Project Members
