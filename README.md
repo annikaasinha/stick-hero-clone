@@ -48,7 +48,7 @@ This project applies key OOP principles to ensure maintainability and modularity
 
 ---
 
-### 🕹️ Game Mechanics
+###  Game Mechanics
 
 1. **Stick Growth:**
    Stick extends while the mouse is pressed on the hero and stops upon release.
