@@ -1,57 +1,114 @@
-Project Members :-
+Here’s a polished and professional version of your GitHub README, formatted for clarity and presentation:
 
-1) Annika Sinha [2022082]
-2) Anish Jain [2022077]
+---
 
+# Stick Hero Clone 
 
-"To run the project, please run HelloApllication.java file inside the main -> java directory"
+### Project Members
 
+* **Annika Sinha** \[2022082]
+* **Anish Jain** \[2022077]
 
-Object Oriented Programming concepts have been used to organise and simplify code structure
+---
 
-- Interfaces (GameController)
-- Abstract Classes (ObjectController)
-- Encapsulation (in all classes to integrate variables and methods into a single unit)
+###  How to Run the Project
 
+To launch the game, execute the `HelloApplication.java` file located in the `src/main/java` directory.
 
-Singleton Design Pattern used in PillarController to ensure a single instance at any given point in time.
+---
 
+###  Object-Oriented Concepts Used
 
-JUnitTests have been written to assert some essential information like Pillar Widths, Player and Stick's start points and more.
+This project applies key OOP principles to ensure maintainability and modularity:
 
+* **Interfaces:**
+  Used for generalization, e.g., `GameController`.
 
-Attributes have been kept private in all classes (unless necessary otherwise)
-Methods have been kept public in all classes (unless necessary otherwise)
+* **Abstract Classes:**
+  Used for shared logic, e.g., `ObjectController`.
 
+* **Encapsulation:**
+  All classes encapsulate data and behavior, exposing only necessary functionality.
 
-Some mechanics of the game include :-
+* **Singleton Pattern:**
+  Implemented in `PillarController` to ensure a single instance manages pillar states.
 
-1)The length of the stick increases on pressing the mouse on the hero and the length stops increasing on releasing the mouse
+---
 
-2)The hero flips when you press anywhere on the background
+###  Testing
 
-3)Cherries are generated on a random basis when sufficient space is available between the 2 pillars in the screen. The distance between two pillars is checked and then cherry is generated.
+* **JUnit Tests** are written to validate:
 
-4)Music is played using an audio file imported from the internet whose link has been provided above.
+  * Pillar widths
+  * Initial player and stick positions
+  * Other core game parameters
 
-5)The high Score is generated using a high Score Manager class which stores the highScores in a text file and displays high score accordingly.
+---
 
-6)Points are counted on the basis of number of pillars that the stickHero crosses.
+###  Code Structure
 
-7)There is a pause button, which allows the player to pause the game and store the current score and also resume the game using the resume button.
+* All attributes are marked `private` unless otherwise necessary.
+* Only essential methods are declared `public`.
 
+---
 
-The project has been made using JavaFx and Scenebuilder.
+### 🕹️ Game Mechanics
 
+1. **Stick Growth:**
+   Stick extends while the mouse is pressed on the hero and stops upon release.
 
-The images and audios taken are from the following sources:-
-https://images.app.goo.gl/98VnX5gD5x4dUijs5
-https://images.app.goo.gl/7UvtdjjuZnfNEDTh6
-https://gameforge.com/de-DE/littlegames/includes/images/games/8061_5eb3ed2c8e534.jpg
-https://images.unsplash.com/photo-1528820600606-0ef5600cbfee?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNoZXJyaWVzfGVufDB8fDB8fHww
-https://pixabay.com/illustrations/game-over-reminder-post-note-sticker-1432947/
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fthenounproject.com%2Fbrowse%2Ficons%2Fterm%2Fback-button%2F&psig=AOvVaw2qkJU1RzBUaIM61jPnaXwH&ust=1702212536678000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPji4YKygoMDFQAAAAAdAAAAABAI
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fthenounproject.com%2Fbrowse%2Ficons%2Fterm%2Fback-button%2F&psig=AOvVaw2qkJU1RzBUaIM61jPnaXwH&ust=1702212536678000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCPji4YKygoMDFQAAAAAdAAAAABAI
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freeiconspng.com%2Fimages%2Fpause-button-png&psig=AOvVaw1vd5f6IV_qGqNya8p6n14B&ust=1702214974146000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCMCN4Iq7goMDFQAAAAAdAAAAABAE
-https://pixabay.com/music/search/genre/video%20games/
+2. **Hero Flip:**
+   The hero flips when you click on the background.
+
+3. **Cherry Generation:**
+   Cherries spawn randomly if there's enough space between pillars.
+
+4. **Audio Integration:**
+   Background music is embedded and plays during gameplay.
+
+5. **High Score Tracking:**
+   A `HighScoreManager` class handles reading and writing scores to a file.
+
+6. **Scoring Logic:**
+   Score increases based on the number of pillars the hero successfully crosses.
+
+7. **Pause/Resume Feature:**
+   A pause button saves the current game state and allows you to resume.
+
+---
+
+###  Technologies Used
+
+* **Java**
+* **JavaFX**
+* **SceneBuilder**
+* **JUnit**
+
+---
+
+###  Project Structure Overview
+
+```
+StickHeroClone/
+│
+├── src/
+│   └── main/
+│       └── java/
+│           └── HelloApplication.java   # Main entry point
+│           └── controllers/
+│           └── models/
+│           └── views/
+│
+├── resources/
+│   └── audio/
+│   └── images/
+│
+├── test/
+│   └── java/
+│       └── unit tests
+│
+└── README.md
+```
+
+---
 
