@@ -2,8 +2,9 @@
 
 ### Project Members
 
-* **Annika Sinha** \[2022082]
 * **Anish Jain** \[2022077]
+* **Annika Sinha** \[2022082]
+
 
 ---
 
