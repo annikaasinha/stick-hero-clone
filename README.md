@@ -6,13 +6,12 @@
 * **Annika Sinha** \[2022082]
 
 
----
 
 ###  How to Run the Project
 
 To launch the game, execute the `HelloApplication.java` file located in the `src/main/java` directory.
 
----
+
 
 ###  Object-Oriented Concepts Used
 
@@ -30,7 +29,7 @@ This project applies key OOP principles to ensure maintainability and modularity
 * **Singleton Pattern:**
   Implemented in `PillarController` to ensure a single instance manages pillar states.
 
----
+
 
 ###  Testing
 
@@ -40,14 +39,13 @@ This project applies key OOP principles to ensure maintainability and modularity
   * Initial player and stick positions
   * Other core game parameters
 
----
+
 
 ###  Code Structure
 
 * All attributes are marked `private` unless otherwise necessary.
 * Only essential methods are declared `public`.
 
----
 
 ###  Game Mechanics
 
@@ -72,7 +70,7 @@ This project applies key OOP principles to ensure maintainability and modularity
 7. **Pause/Resume Feature:**
    A pause button saves the current game state and allows you to resume.
 
----
+
 
 ###  Technologies Used
 
@@ -81,7 +79,7 @@ This project applies key OOP principles to ensure maintainability and modularity
 * **SceneBuilder**
 * **JUnit**
 
----
+
 
 ###  Project Structure Overview
 
